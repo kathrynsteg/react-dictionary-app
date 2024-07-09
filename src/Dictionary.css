@@ -1,3 +1,15 @@
+.Dictionary {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.Dictionary h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .Dictionary section {
   background: whitesmoke;
   padding: 30px;

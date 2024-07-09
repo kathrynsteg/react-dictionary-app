@@ -5,3 +5,11 @@
   box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
   margin: 20px 0;
 }
+
+.Result h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: black;
+  margin: 10px 0 0;
+}

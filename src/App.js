@@ -6,9 +6,29 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header"></header>
-        <Dictionary defaultKeyword="cheese" />
+        <main>
+          <Dictionary defaultKeyword="forest" />
+        </main>
       </div>
-      <footer className="text-center">Coded by Kathryn Stegeman</footer>
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://github.com/kathrynsteg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Kathryn Stegeman
+        </a>{" "}
+        and is hosted on{" "}
+        <a
+          href="https://stegeman-dictionary-app.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Netlify
+        </a>
+        .
+      </footer>
     </div>
   );
 }

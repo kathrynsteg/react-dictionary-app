@@ -11,15 +11,14 @@ export default function Result(props) {
           <h2>{props.definition.word}</h2>
           <Phonetic phonetic={props.definition.phonetic} />
         </section>
-        <section>
-          {props.definition.meanings.map(function (meaning, index) {
-            return (
-              <div key={index}>
-                <Meaning meaning={meaning} />
-              </div>
-            );
-          })}
-        </section>
+
+        {props.definition.meanings.map(function (meaning, index) {
+          return (
+            <section key={index}>
+              <Meaning meaning={meaning} />
+            </section>
+          );
+        })}
       </div>
     );
   } else {
