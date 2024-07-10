@@ -9,26 +9,27 @@ function App() {
         <main>
           <Dictionary defaultKeyword="forest" />
         </main>
+
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/kathrynsteg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kathryn Stegeman
+          </a>{" "}
+          and is hosted on{" "}
+          <a
+            href="https://stegeman-dictionary-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+          .
+        </footer>
       </div>
-      <footer>
-        This project was coded by{" "}
-        <a
-          href="https://github.com/kathrynsteg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Kathryn Stegeman
-        </a>{" "}
-        and is hosted on{" "}
-        <a
-          href="https://stegeman-dictionary-app.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Netlify
-        </a>
-        .
-      </footer>
     </div>
   );
 }

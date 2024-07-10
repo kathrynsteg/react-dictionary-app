@@ -21,6 +21,11 @@
 .Dictionary input {
   width: 100%;
   padding: 6px 8px;
+  height: 64px;
+  font-size: 18px;
+  line-height: 21px;
   color: black;
   border: 1px solid gray;
+  display: block;
+  border-radius: 6px;
 }
